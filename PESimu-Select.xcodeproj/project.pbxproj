@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180FAF2E1A7C0381009D94D2 /* libPESimu-Select.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 180FAF221A7C0381009D94D2 /* libPESimu-Select.a */; };
+		180FAF451A7C063C009D94D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF441A7C063C009D94D2 /* main.m */; };
+		180FAF501A7C063D009D94D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180FAF4F1A7C063D009D94D2 /* Images.xcassets */; };
+		180FAF681A7C0662009D94D2 /* libPESimu-Select.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 180FAF221A7C0381009D94D2 /* libPESimu-Select.a */; };
+		180FAF731A7C091D009D94D2 /* SSELNotificationNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF721A7C091D009D94D2 /* SSELNotificationNames.m */; };
+		180FAF761A7C0927009D94D2 /* SSELUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF751A7C0927009D94D2 /* SSELUtils.m */; };
+		180FAF791A7C092E009D94D2 /* SSELUseCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF781A7C092E009D94D2 /* SSELUseCase.m */; };
+		180FAF7C1A7C0936009D94D2 /* SSELSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF7B1A7C0936009D94D2 /* SSELSimulation.m */; };
+		180FAF7F1A7C093E009D94D2 /* SSELSimulationTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF7E1A7C093E009D94D2 /* SSELSimulationTableCell.m */; };
+		180FAF821A7C0946009D94D2 /* SSELSimulationSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF811A7C0946009D94D2 /* SSELSimulationSelectionController.m */; };
+		180FAF851A7C094C009D94D2 /* SSELUIWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF841A7C094C009D94D2 /* SSELUIWindow.m */; };
+		180FAF8B1A7C0990009D94D2 /* SSELSimulationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF8A1A7C0990009D94D2 /* SSELSimulationTests.m */; };
+		180FAF8D1A7C0996009D94D2 /* SSELUseCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF8C1A7C0996009D94D2 /* SSELUseCaseTests.m */; };
+		180FAF8F1A7C099C009D94D2 /* SSELUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF8E1A7C099C009D94D2 /* SSELUtilsTests.m */; };
+		180FAF911A7C09A6009D94D2 /* application-screens in Resources */ = {isa = PBXBuildFile; fileRef = 180FAF901A7C09A6009D94D2 /* application-screens */; };
+		180FAF941A7C0F80009D94D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF931A7C0F80009D94D2 /* AppDelegate.m */; };
+		180FAF961A7C0F88009D94D2 /* application-screens in Resources */ = {isa = PBXBuildFile; fileRef = 180FAF951A7C0F88009D94D2 /* application-screens */; };
+		189CAB0E1A7C1CF100A2A40B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189CAB0D1A7C1CF100A2A40B /* Default-568h@2x.png */; };
+		D3D49623CF0BA0F4B32A2936 /* libPods-PESimu-SelectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE892AAFF9C5CC5DA693EB8 /* libPods-PESimu-SelectTests.a */; };
+		E3CA55428F12CD09C35D593D /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EEA441A6B13CB24DD1735B /* libPods-DemoApp.a */; };
+		FCF1F792C646F374B24D8822 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E749BA7C972B1A23E5017B9B /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180FAF2F1A7C0381009D94D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180FAF1A1A7C0381009D94D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180FAF211A7C0381009D94D2;
+			remoteInfo = "PESimu-Select";
+		};
+		180FAF661A7C065D009D94D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180FAF1A1A7C0381009D94D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180FAF211A7C0381009D94D2;
+			remoteInfo = "PESimu-Select";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		180FAF201A7C0381009D94D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		017F9DD415A27F336E47C4BF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		180FAF221A7C0381009D94D2 /* libPESimu-Select.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPESimu-Select.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180FAF2D1A7C0381009D94D2 /* PESimu-SelectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PESimu-SelectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180FAF331A7C0381009D94D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180FAF401A7C063C009D94D2 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180FAF431A7C063C009D94D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180FAF441A7C063C009D94D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180FAF4F1A7C063D009D94D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		180FAF711A7C091D009D94D2 /* SSELNotificationNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSELNotificationNames.h; sourceTree = "<group>"; };
+		180FAF721A7C091D009D94D2 /* SSELNotificationNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSELNotificationNames.m; sourceTree = "<group>"; };
+		180FAF741A7C0927009D94D2 /* SSELUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSELUtils.h; sourceTree = "<group>"; };
+		180FAF751A7C0927009D94D2 /* SSELUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSELUtils.m; sourceTree = "<group>"; };
+		180FAF771A7C092E009D94D2 /* SSELUseCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSELUseCase.h; sourceTree = "<group>"; };
+		180FAF781A7C092E009D94D2 /* SSELUseCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSELUseCase.m; sourceTree = "<group>"; };
+		180FAF7A1A7C0936009D94D2 /* SSELSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSELSimulation.h; sourceTree = "<group>"; };
+		180FAF7B1A7C0936009D94D2 /* SSELSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSELSimulation.m; sourceTree = "<group>"; };
+		180FAF7D1A7C093E009D94D2 /* SSELSimulationTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSELSimulationTableCell.h; sourceTree = "<group>"; };
+		180FAF7E1A7C093E009D94D2 /* SSELSimulationTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSELSimulationTableCell.m; sourceTree = "<group>"; };
+		180FAF801A7C0946009D94D2 /* SSELSimulationSelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSELSimulationSelectionController.h; sourceTree = "<group>"; };
+		180FAF811A7C0946009D94D2 /* SSELSimulationSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSELSimulationSelectionController.m; sourceTree = "<group>"; };
+		180FAF831A7C094C009D94D2 /* SSELUIWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSELUIWindow.h; sourceTree = "<group>"; };
+		180FAF841A7C094C009D94D2 /* SSELUIWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSELUIWindow.m; sourceTree = "<group>"; };
+		180FAF8A1A7C0990009D94D2 /* SSELSimulationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSELSimulationTests.m; sourceTree = "<group>"; };
+		180FAF8C1A7C0996009D94D2 /* SSELUseCaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSELUseCaseTests.m; sourceTree = "<group>"; };
+		180FAF8E1A7C099C009D94D2 /* SSELUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSELUtilsTests.m; sourceTree = "<group>"; };
+		180FAF901A7C09A6009D94D2 /* application-screens */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "application-screens"; sourceTree = "<group>"; };
+		180FAF921A7C0F80009D94D2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180FAF931A7C0F80009D94D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180FAF951A7C0F88009D94D2 /* application-screens */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "application-screens"; sourceTree = "<group>"; };
+		180FAF971A7C1435009D94D2 /* libPods-DemoApp-IQKeyboardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-DemoApp-IQKeyboardManager.a"; path = "Pods/build/Debug-iphoneos/libPods-DemoApp-IQKeyboardManager.a"; sourceTree = "<group>"; };
+		189CAB0D1A7C1CF100A2A40B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		328DD66BDD4F2CB495301E0C /* Pods-PESimu-SelectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PESimu-SelectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PESimu-SelectTests/Pods-PESimu-SelectTests.release.xcconfig"; sourceTree = "<group>"; };
+		33EEA441A6B13CB24DD1735B /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE892AAFF9C5CC5DA693EB8 /* libPods-PESimu-SelectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PESimu-SelectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D176F180382C44BB5ACC5F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A7488A005D9619DEF06AA0AB /* Pods-PESimu-SelectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PESimu-SelectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PESimu-SelectTests/Pods-PESimu-SelectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E749BA7C972B1A23E5017B9B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180FAF1F1A7C0381009D94D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF1F792C646F374B24D8822 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180FAF2A1A7C0381009D94D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FAF2E1A7C0381009D94D2 /* libPESimu-Select.a in Frameworks */,
+				D3D49623CF0BA0F4B32A2936 /* libPods-PESimu-SelectTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180FAF3D1A7C063C009D94D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FAF681A7C0662009D94D2 /* libPESimu-Select.a in Frameworks */,
+				E3CA55428F12CD09C35D593D /* libPods-DemoApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028FF18A9D3EB7B5B060921A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87D176F180382C44BB5ACC5F /* Pods.debug.xcconfig */,
+				017F9DD415A27F336E47C4BF /* Pods.release.xcconfig */,
+				A7488A005D9619DEF06AA0AB /* Pods-PESimu-SelectTests.debug.xcconfig */,
+				328DD66BDD4F2CB495301E0C /* Pods-PESimu-SelectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		180FAF191A7C0381009D94D2 = {
+			isa = PBXGroup;
+			children = (
+				189CAB0D1A7C1CF100A2A40B /* Default-568h@2x.png */,
+				180FAF241A7C0381009D94D2 /* PESimu-Select */,
+				180FAF311A7C0381009D94D2 /* PESimu-SelectTests */,
+				180FAF411A7C063C009D94D2 /* DemoApp */,
+				180FAF231A7C0381009D94D2 /* Products */,
+				028FF18A9D3EB7B5B060921A /* Pods */,
+				ECA2A8FB565CC849B12ACA31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		180FAF231A7C0381009D94D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF221A7C0381009D94D2 /* libPESimu-Select.a */,
+				180FAF2D1A7C0381009D94D2 /* PESimu-SelectTests.xctest */,
+				180FAF401A7C063C009D94D2 /* DemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180FAF241A7C0381009D94D2 /* PESimu-Select */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF701A7C0780009D94D2 /* Common */,
+				180FAF6F1A7C0773009D94D2 /* Custom UIWindow for Shake Gesture */,
+				180FAF6C1A7C075B009D94D2 /* Model */,
+				180FAF6B1A7C0752009D94D2 /* Utils */,
+				180FAF691A7C073B009D94D2 /* Simulation Selector */,
+			);
+			path = "PESimu-Select";
+			sourceTree = "<group>";
+		};
+		180FAF311A7C0381009D94D2 /* PESimu-SelectTests */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF871A7C0962009D94D2 /* Model */,
+				180FAF861A7C095D009D94D2 /* Utils */,
+				180FAF321A7C0381009D94D2 /* Supporting Files */,
+			);
+			path = "PESimu-SelectTests";
+			sourceTree = "<group>";
+		};
+		180FAF321A7C0381009D94D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF901A7C09A6009D94D2 /* application-screens */,
+				180FAF331A7C0381009D94D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180FAF411A7C063C009D94D2 /* DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF921A7C0F80009D94D2 /* AppDelegate.h */,
+				180FAF931A7C0F80009D94D2 /* AppDelegate.m */,
+				180FAF4F1A7C063D009D94D2 /* Images.xcassets */,
+				180FAF421A7C063C009D94D2 /* Supporting Files */,
+			);
+			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		180FAF421A7C063C009D94D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF951A7C0F88009D94D2 /* application-screens */,
+				180FAF431A7C063C009D94D2 /* Info.plist */,
+				180FAF441A7C063C009D94D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180FAF691A7C073B009D94D2 /* Simulation Selector */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF801A7C0946009D94D2 /* SSELSimulationSelectionController.h */,
+				180FAF811A7C0946009D94D2 /* SSELSimulationSelectionController.m */,
+				180FAF6A1A7C0748009D94D2 /* Simulation Table Cell */,
+			);
+			name = "Simulation Selector";
+			sourceTree = "<group>";
+		};
+		180FAF6A1A7C0748009D94D2 /* Simulation Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF7D1A7C093E009D94D2 /* SSELSimulationTableCell.h */,
+				180FAF7E1A7C093E009D94D2 /* SSELSimulationTableCell.m */,
+			);
+			name = "Simulation Table Cell";
+			sourceTree = "<group>";
+		};
+		180FAF6B1A7C0752009D94D2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF741A7C0927009D94D2 /* SSELUtils.h */,
+				180FAF751A7C0927009D94D2 /* SSELUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		180FAF6C1A7C075B009D94D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF6E1A7C0769009D94D2 /* Use Case */,
+				180FAF6D1A7C0764009D94D2 /* Simulation */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		180FAF6D1A7C0764009D94D2 /* Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF7A1A7C0936009D94D2 /* SSELSimulation.h */,
+				180FAF7B1A7C0936009D94D2 /* SSELSimulation.m */,
+			);
+			name = Simulation;
+			sourceTree = "<group>";
+		};
+		180FAF6E1A7C0769009D94D2 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF771A7C092E009D94D2 /* SSELUseCase.h */,
+				180FAF781A7C092E009D94D2 /* SSELUseCase.m */,
+			);
+			name = "Use Case";
+			sourceTree = "<group>";
+		};
+		180FAF6F1A7C0773009D94D2 /* Custom UIWindow for Shake Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF831A7C094C009D94D2 /* SSELUIWindow.h */,
+				180FAF841A7C094C009D94D2 /* SSELUIWindow.m */,
+			);
+			name = "Custom UIWindow for Shake Gesture";
+			sourceTree = "<group>";
+		};
+		180FAF701A7C0780009D94D2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF711A7C091D009D94D2 /* SSELNotificationNames.h */,
+				180FAF721A7C091D009D94D2 /* SSELNotificationNames.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		180FAF861A7C095D009D94D2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF8E1A7C099C009D94D2 /* SSELUtilsTests.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		180FAF871A7C0962009D94D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF891A7C0985009D94D2 /* Use Case */,
+				180FAF881A7C0980009D94D2 /* Simulation */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		180FAF881A7C0980009D94D2 /* Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF8A1A7C0990009D94D2 /* SSELSimulationTests.m */,
+			);
+			name = Simulation;
+			sourceTree = "<group>";
+		};
+		180FAF891A7C0985009D94D2 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF8C1A7C0996009D94D2 /* SSELUseCaseTests.m */,
+			);
+			name = "Use Case";
+			sourceTree = "<group>";
+		};
+		ECA2A8FB565CC849B12ACA31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180FAF971A7C1435009D94D2 /* libPods-DemoApp-IQKeyboardManager.a */,
+				E749BA7C972B1A23E5017B9B /* libPods.a */,
+				6CE892AAFF9C5CC5DA693EB8 /* libPods-PESimu-SelectTests.a */,
+				33EEA441A6B13CB24DD1735B /* libPods-DemoApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180FAF211A7C0381009D94D2 /* PESimu-Select */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180FAF361A7C0381009D94D2 /* Build configuration list for PBXNativeTarget "PESimu-Select" */;
+			buildPhases = (
+				B62CD20901D2BB835EC3993B /* Check Pods Manifest.lock */,
+				180FAF1E1A7C0381009D94D2 /* Sources */,
+				180FAF1F1A7C0381009D94D2 /* Frameworks */,
+				180FAF201A7C0381009D94D2 /* CopyFiles */,
+				2AD9CF0A641524A8D6106F17 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PESimu-Select";
+			productName = "PESimu-Select";
+			productReference = 180FAF221A7C0381009D94D2 /* libPESimu-Select.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		180FAF2C1A7C0381009D94D2 /* PESimu-SelectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180FAF391A7C0381009D94D2 /* Build configuration list for PBXNativeTarget "PESimu-SelectTests" */;
+			buildPhases = (
+				26E8A50E71DDFA1F814A8A4A /* Check Pods Manifest.lock */,
+				180FAF291A7C0381009D94D2 /* Sources */,
+				180FAF2A1A7C0381009D94D2 /* Frameworks */,
+				180FAF2B1A7C0381009D94D2 /* Resources */,
+				E7A8E496B5F9E077E5F9DB06 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180FAF301A7C0381009D94D2 /* PBXTargetDependency */,
+			);
+			name = "PESimu-SelectTests";
+			productName = "PESimu-SelectTests";
+			productReference = 180FAF2D1A7C0381009D94D2 /* PESimu-SelectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180FAF3F1A7C063C009D94D2 /* DemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180FAF641A7C063D009D94D2 /* Build configuration list for PBXNativeTarget "DemoApp" */;
+			buildPhases = (
+				A594B12E0064B4C0D5600B21 /* Check Pods Manifest.lock */,
+				180FAF3C1A7C063C009D94D2 /* Sources */,
+				180FAF3D1A7C063C009D94D2 /* Frameworks */,
+				180FAF3E1A7C063C009D94D2 /* Resources */,
+				6FAE7910CF25DBB3DB65A379 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180FAF671A7C065D009D94D2 /* PBXTargetDependency */,
+			);
+			name = DemoApp;
+			productName = DemoApp;
+			productReference = 180FAF401A7C063C009D94D2 /* DemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180FAF1A1A7C0381009D94D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paul Evans";
+				TargetAttributes = {
+					180FAF211A7C0381009D94D2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					180FAF2C1A7C0381009D94D2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					180FAF3F1A7C063C009D94D2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 180FAF1D1A7C0381009D94D2 /* Build configuration list for PBXProject "PESimu-Select" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180FAF191A7C0381009D94D2;
+			productRefGroup = 180FAF231A7C0381009D94D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180FAF211A7C0381009D94D2 /* PESimu-Select */,
+				180FAF2C1A7C0381009D94D2 /* PESimu-SelectTests */,
+				180FAF3F1A7C063C009D94D2 /* DemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180FAF2B1A7C0381009D94D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FAF911A7C09A6009D94D2 /* application-screens in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180FAF3E1A7C063C009D94D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FAF501A7C063D009D94D2 /* Images.xcassets in Resources */,
+				180FAF961A7C0F88009D94D2 /* application-screens in Resources */,
+				189CAB0E1A7C1CF100A2A40B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26E8A50E71DDFA1F814A8A4A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AD9CF0A641524A8D6106F17 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FAE7910CF25DBB3DB65A379 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A594B12E0064B4C0D5600B21 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B62CD20901D2BB835EC3993B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A8E496B5F9E077E5F9DB06 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PESimu-SelectTests/Pods-PESimu-SelectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180FAF1E1A7C0381009D94D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FAF791A7C092E009D94D2 /* SSELUseCase.m in Sources */,
+				180FAF761A7C0927009D94D2 /* SSELUtils.m in Sources */,
+				180FAF731A7C091D009D94D2 /* SSELNotificationNames.m in Sources */,
+				180FAF7F1A7C093E009D94D2 /* SSELSimulationTableCell.m in Sources */,
+				180FAF851A7C094C009D94D2 /* SSELUIWindow.m in Sources */,
+				180FAF821A7C0946009D94D2 /* SSELSimulationSelectionController.m in Sources */,
+				180FAF7C1A7C0936009D94D2 /* SSELSimulation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180FAF291A7C0381009D94D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FAF8D1A7C0996009D94D2 /* SSELUseCaseTests.m in Sources */,
+				180FAF8F1A7C099C009D94D2 /* SSELUtilsTests.m in Sources */,
+				180FAF8B1A7C0990009D94D2 /* SSELSimulationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180FAF3C1A7C063C009D94D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FAF941A7C0F80009D94D2 /* AppDelegate.m in Sources */,
+				180FAF451A7C063C009D94D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180FAF301A7C0381009D94D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180FAF211A7C0381009D94D2 /* PESimu-Select */;
+			targetProxy = 180FAF2F1A7C0381009D94D2 /* PBXContainerItemProxy */;
+		};
+		180FAF671A7C065D009D94D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180FAF211A7C0381009D94D2 /* PESimu-Select */;
+			targetProxy = 180FAF661A7C065D009D94D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		180FAF341A7C0381009D94D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180FAF351A7C0381009D94D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180FAF371A7C0381009D94D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D176F180382C44BB5ACC5F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		180FAF381A7C0381009D94D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017F9DD415A27F336E47C4BF /* Pods.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		180FAF3A1A7C0381009D94D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7488A005D9619DEF06AA0AB /* Pods-PESimu-SelectTests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PESimu-SelectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-PESimu-SelectTests-Kiwi\"",
+					"-framework",
+					"\"XCTest\"",
+					"-l\"xml2\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180FAF3B1A7C0381009D94D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328DD66BDD4F2CB495301E0C /* Pods-PESimu-SelectTests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PESimu-SelectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-PESimu-SelectTests-Kiwi\"",
+					"-framework",
+					"\"XCTest\"",
+					"-l\"xml2\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		180FAF601A7C063D009D94D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D176F180382C44BB5ACC5F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"xml2\"",
+					"-l\"Pods-DemoApp-IQKeyboardManager\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180FAF611A7C063D009D94D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017F9DD415A27F336E47C4BF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"xml2\"",
+					"-l\"Pods-DemoApp-IQKeyboardManager\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180FAF1D1A7C0381009D94D2 /* Build configuration list for PBXProject "PESimu-Select" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180FAF341A7C0381009D94D2 /* Debug */,
+				180FAF351A7C0381009D94D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180FAF361A7C0381009D94D2 /* Build configuration list for PBXNativeTarget "PESimu-Select" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180FAF371A7C0381009D94D2 /* Debug */,
+				180FAF381A7C0381009D94D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180FAF391A7C0381009D94D2 /* Build configuration list for PBXNativeTarget "PESimu-SelectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180FAF3A1A7C0381009D94D2 /* Debug */,
+				180FAF3B1A7C0381009D94D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180FAF641A7C063D009D94D2 /* Build configuration list for PBXNativeTarget "DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180FAF601A7C063D009D94D2 /* Debug */,
+				180FAF611A7C063D009D94D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180FAF1A1A7C0381009D94D2 /* Project object */;
+}

@@ -1,0 +1,6 @@
+(+) Add to DemoApp's header search path: "${SRCROOT}/Pods/Headers/Public"
+(+) Manually configure DemoApp target within Xocde to depend-on taret
+"PESimu-Select" and to link to "libPESimu-Select.a"
+(+) Needed to manually REMOVE '-l"xml2"' entry from Pods.debug.xcconfig and
+Pods.release.xcconfig
+(+) Add the -l"xml2" linker flag to the test and Demo targets
