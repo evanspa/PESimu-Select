@@ -139,5 +139,5 @@ All of these steps can be found implemented in the demo app .
 ## Installation with CocoaPods
 
 ```ruby
-pod "PESimu-Select"
+pod 'PESimu-Select', '~> 1.0.1'
 ```

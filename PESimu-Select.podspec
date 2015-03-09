@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PESimu-Select"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.license      = "MIT"
   s.summary      = "An iOS static library simplifying the functional testing of web service-enabled apps."
   s.author       = { "Paul Evans" => "evansp2@gmail.com" }
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.public_header_files = '**/*.h'
   s.exclude_files = "**/*Tests/*.*", "**/DemoApp/*"
   s.requires_arc = true
-  s.dependency 'PEObjc-Commons'
-  s.dependency 'PEWire-Control'
+  s.dependency 'PEObjc-Commons', '~> 1.0.1'
+  s.dependency 'PEWire-Control', '~> 1.0.1'
 end
