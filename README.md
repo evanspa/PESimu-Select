@@ -4,7 +4,16 @@
 
 PESimu-Select is an iOS static library providing a view controller for the purpose of selecting what we call a "simulation" for the purpose of faking Cocoa's URL loading system in order to return controlled mock HTTP responses to web service calls.
 
-PESimu-Select works on top of [PEWire-Control](https://github.com/evanspa/PEWire-Control).
+PESimu-Select works on top of
+[PEWire-Control](https://github.com/evanspa/PEWire-Control).
+
+**Table of Contents**
+
+- [Motivation](#motivation)
+- [How To Use It](#how-to-use-it)
+    - [1. Creating Mock HTTP Response XML Files](#1-creating-mock-http-response-xml-files)
+    - [2. Incorporate PESimu-Select's simulation selection view controller into your application.](#2-incorporate-pesimu-selects-simulation-selection-view-controller-into-your-application)
+- [Installation with CocoaPods](#installation-with-cocoapods)
 
 ## Motivation
 
