@@ -7,6 +7,9 @@ PESimu-Select is an iOS static library providing a view controller for the purpo
 PESimu-Select works on top of
 [PEWire-Control](https://github.com/evanspa/PEWire-Control).
 
+PESimu-Select is also a part of the
+[PE* iOS Library Suite](#pe-ios-library-suite).
+
 **Table of Contents**
 
 - [Motivation](#motivation)
@@ -14,6 +17,7 @@ PESimu-Select works on top of
     - [1. Creating Mock HTTP Response XML Files](#1-creating-mock-http-response-xml-files)
     - [2. Incorporate PESimu-Select's simulation selection view controller into your application.](#2-incorporate-pesimu-selects-simulation-selection-view-controller-into-your-application)
 - [Installation with CocoaPods](#installation-with-cocoapods)
+- [PE* iOS Library Suite](#pe-ios-library-suite)
 
 ## Motivation
 
@@ -150,3 +154,20 @@ All of these steps can be found implemented in the demo app .
 ```ruby
 pod 'PESimu-Select', '~> 1.0.1'
 ```
+
+## PE* iOS Library Suite
+*(Each library is implemented as a CocoaPod-enabled iOS static library.)*
++ **[PEObjc-Commons](https://github.com/evanspa/PEObjc-Commons)**: a library
+  providing a set of everyday helper functionality.
++ **[PEXML-Utils](https://github.com/evanspa/PEXML-Utils)**: a library
+  simplifying working with XML.  Built on top of [KissXML](https://github.com/robbiehanson/KissXML).
++ **[PEHateoas-Client](https://github.com/evanspa/PEHateoas-Client)**: a library
+  for consuming hypermedia REST APIs.  I.e. those that adhere to the *Hypermedia
+  As The Engine Of Application State ([HATEOAS](http://en.wikipedia.org/wiki/HATEOAS))* constraint.  Built on top of [AFNetworking](https://github.com/AFNetworking/AFNetworking).
++ **[PEWire-Control](https://github.com/evanspa/PEWire-Control)**: a library for
+  controlling Cocoa's NSURL loading system using simple XML files.  Built on top of [OHHTTPStubs](https://github.com/AliSoftware/OHHTTPStubs).
++ **[PEAppTransaction-Logger](https://github.com/evanspa/PEAppTransaction-Logger)**: a
+  library client for the PEAppTransaction Logging Framework.  Clojure-based libraries exist implementing the server-side [core data access](https://github.com/evanspa/pe-apptxn-core) and [REST API functionality](https://github.com/evanspa/pe-apptxn-restsupport).
++ **PESimu-Select**: this library.
++ **[PEDev-Console](https://github.com/evanspa/PEDev-Console)**: a library
+  aiding in the functional testing of iOS applications.
