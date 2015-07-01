@@ -25,6 +25,7 @@
 		180FAF941A7C0F80009D94D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180FAF931A7C0F80009D94D2 /* AppDelegate.m */; };
 		180FAF961A7C0F88009D94D2 /* application-screens in Resources */ = {isa = PBXBuildFile; fileRef = 180FAF951A7C0F88009D94D2 /* application-screens */; };
 		189CAB0E1A7C1CF100A2A40B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189CAB0D1A7C1CF100A2A40B /* Default-568h@2x.png */; };
+		CA7EF8141B446880003B9699 /* image-files-for-mock-responses in Resources */ = {isa = PBXBuildFile; fileRef = CA7EF8131B446880003B9699 /* image-files-for-mock-responses */; };
 		D3D49623CF0BA0F4B32A2936 /* libPods-PESimu-SelectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE892AAFF9C5CC5DA693EB8 /* libPods-PESimu-SelectTests.a */; };
 		E3CA55428F12CD09C35D593D /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EEA441A6B13CB24DD1735B /* libPods-DemoApp.a */; };
 		FCF1F792C646F374B24D8822 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E749BA7C972B1A23E5017B9B /* libPods.a */; };
@@ -96,6 +97,7 @@
 		6CE892AAFF9C5CC5DA693EB8 /* libPods-PESimu-SelectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PESimu-SelectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D176F180382C44BB5ACC5F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A7488A005D9619DEF06AA0AB /* Pods-PESimu-SelectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PESimu-SelectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PESimu-SelectTests/Pods-PESimu-SelectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA7EF8131B446880003B9699 /* image-files-for-mock-responses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "image-files-for-mock-responses"; sourceTree = "<group>"; };
 		E749BA7C972B1A23E5017B9B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -208,6 +210,7 @@
 		180FAF421A7C063C009D94D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA7EF8131B446880003B9699 /* image-files-for-mock-responses */,
 				180FAF951A7C0F88009D94D2 /* application-screens */,
 				180FAF431A7C063C009D94D2 /* Info.plist */,
 				180FAF441A7C063C009D94D2 /* main.m */,
@@ -450,6 +453,7 @@
 				180FAF501A7C063D009D94D2 /* Images.xcassets in Resources */,
 				180FAF961A7C0F88009D94D2 /* application-screens in Resources */,
 				189CAB0E1A7C1CF100A2A40B /* Default-568h@2x.png in Resources */,
+				CA7EF8141B446880003B9699 /* image-files-for-mock-responses in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,10 +756,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
-					"-ObjC",
 					"-l\"xml2\"",
+					"-ObjC",
+					"-l\"Pods-DemoApp-AFNetworking\"",
 					"-l\"Pods-DemoApp-IQKeyboardManager\"",
 				);
+				OTHER_LIBTOOLFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -770,10 +776,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
-					"-ObjC",
 					"-l\"xml2\"",
+					"-ObjC",
+					"-l\"Pods-DemoApp-AFNetworking\"",
 					"-l\"Pods-DemoApp-IQKeyboardManager\"",
 				);
+				OTHER_LIBTOOLFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

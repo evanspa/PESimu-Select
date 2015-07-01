@@ -50,26 +50,18 @@
 
 #pragma mark - Private Helpers
 
-+ (NSArray *)usecaseSimulationsFromPath:(NSString *)path {
++ (NSArray *)usecaseSimulationsFromPath:(NSString *)path
+                  pathsRelativeToBundle:(NSBundle *)bundle {
   NSMutableArray *usecaseSimulations = [[NSMutableArray alloc] init];
   NSFileManager *fm = [NSFileManager defaultManager];
   NSPredicate *fltr = [NSPredicate predicateWithFormat:@"self ENDSWITH '.xml'"];
-  NSArray *usecaseSimulationXmlFiles =
-  [[fm contentsOfDirectoryAtPath:path error:nil]
-   filteredArrayUsingPredicate:fltr];
-  [usecaseSimulationXmlFiles enumerateObjectsUsingBlock:^(id obj,
-                                                          NSUInteger idx,
-                                                          BOOL *stop) {
-    NSString *mockResponsePath =
-    [path stringByAppendingPathComponent:obj];
+  NSArray *usecaseSimulationXmlFiles = [[fm contentsOfDirectoryAtPath:path error:nil] filteredArrayUsingPredicate:fltr];
+  [usecaseSimulationXmlFiles enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+    NSString *mockResponsePath = [path stringByAppendingPathComponent:obj];
     NSData *mockResponseData = [fm contentsAtPath:mockResponsePath];
-    NSString *mockResponseStr =
-    [[NSString  alloc] initWithData:mockResponseData
-                           encoding:NSUTF8StringEncoding];
-    [usecaseSimulations
-     addObject:[[SSELSimulation alloc]
-                initWithHttpResponse:
-                [PEHttpResponseUtils mockResponseFromXml:mockResponseStr]]];
+    NSString *mockResponseStr = [[NSString  alloc] initWithData:mockResponseData encoding:NSUTF8StringEncoding];
+    [usecaseSimulations addObject:[[SSELSimulation alloc] initWithHttpResponse:[PEHttpResponseUtils mockResponseFromXml:mockResponseStr
+                                                                                                  pathsRelativeToBundle:bundle]]];
   }];
   return usecaseSimulations;
 }
@@ -79,23 +71,17 @@
 + (NSArray *)usecasesForScreen:(NSString *)screen
         fromBaseResourceFolder:(NSString *)resourceFolder {
   NSFileManager *fm = [NSFileManager defaultManager];
-  NSString *bundlePath = [[NSBundle bundleForClass:[self class]] bundlePath];
-  NSString *baseResourceFldrPath =
-  [bundlePath stringByAppendingPathComponent:resourceFolder];
-  NSString *fullPath =
-  [baseResourceFldrPath stringByAppendingPathComponent:screen];
+  NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+  NSString *bundlePath = [bundle bundlePath];
+  NSString *baseResourceFldrPath = [bundlePath stringByAppendingPathComponent:resourceFolder];
+  NSString *fullPath = [baseResourceFldrPath stringByAppendingPathComponent:screen];
   NSArray *usecaseFldrs = [fm contentsOfDirectoryAtPath:fullPath error:nil];
-  NSMutableArray *usecases =
-  [[NSMutableArray alloc] initWithCapacity:[usecaseFldrs count]];
-  [usecaseFldrs enumerateObjectsUsingBlock:^(id obj,
-                                             NSUInteger idx,
-                                             BOOL *stop) {
+  NSMutableArray *usecases = [[NSMutableArray alloc] initWithCapacity:[usecaseFldrs count]];
+  [usecaseFldrs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
     NSString *simulationsPath = [fullPath stringByAppendingPathComponent:obj];
-    NSArray *usecaseSimulations =
-    [SSELUtils usecaseSimulationsFromPath:simulationsPath];
-    SSELUseCase *usecase =
-    [[SSELUseCase alloc] initWithName:obj
-                          simulations:usecaseSimulations];
+    NSArray *usecaseSimulations = [SSELUtils usecaseSimulationsFromPath:simulationsPath
+                                                  pathsRelativeToBundle:bundle];
+    SSELUseCase *usecase = [[SSELUseCase alloc] initWithName:obj simulations:usecaseSimulations];
     [usecases addObject:usecase];
   }];
   return usecases;
@@ -128,8 +114,7 @@
                                          andHeightOf:0.2
                                       relativeToView:[[self ontoViewController] view]];
   UIButton *toggleSimsBtn = [PEUIUtils buttonWithKey:@"Toggle Simulations"
-                                                font:[UIFont systemFontOfSize:
-                                                      [UIFont systemFontSize]]
+                                                font:[UIFont systemFontOfSize:[UIFont systemFontSize]]
                                      backgroundColor:[UIColor blueColor]
                                            textColor:[UIColor whiteColor]
                         disabledStateBackgroundColor:[UIColor grayColor]

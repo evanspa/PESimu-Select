@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<http-response statusCode="200">
+  <annotation name="View Beach"
+              host="example.com"
+              port="80"
+              scheme="http"
+              uri-path="/beaches/the-beach.jpg"
+              request-method="GET">View Beach Success</annotation>
+  <headers>
+    <header name="Content-Type" value="image/jpeg" />
+  </headers>
+  <cookies />
+  <body-file path="image-files-for-mock-responses/beach.jpg" />
+</http-response>

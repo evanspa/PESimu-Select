@@ -12,5 +12,5 @@
   </headers>
   <cookies>
   </cookies>
-  <body></body>
+  <body />
 </http-response>
