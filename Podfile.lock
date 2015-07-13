@@ -21,12 +21,14 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - IQKeyboardManager (3.2.1.2)
+  - JGActionSheet (1.0.4)
   - KissXML (5.0)
   - Kiwi (2.3.1)
   - OHHTTPStubs (3.1.12):
     - OHHTTPStubs/Core (= 3.1.12)
   - OHHTTPStubs/Core (3.1.12)
-  - PEObjc-Commons (1.0.8)
+  - PEObjc-Commons (1.0.20):
+    - JGActionSheet (~> 1.0.4)
   - PEWire-Control (1.0.2):
     - KissXML (~> 5.0)
     - OHHTTPStubs (~> 3.1.10)
@@ -41,16 +43,17 @@ DEPENDENCIES:
   - IQKeyboardManager (~> 3.2.1.1)
   - KissXML (~> 5.0)
   - Kiwi (~> 2.3.1)
-  - PEObjc-Commons (~> 1.0.8)
+  - PEObjc-Commons (~> 1.0.20)
   - PEWire-Control (~> 1.0.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   IQKeyboardManager: 4adcd7cc9c17440a7cb74755f6f6c8389919c6bf
+  JGActionSheet: 7c6a947dca93a5c6031032ab76e157b19087d593
   KissXML: ce643413d618ad69886d0d43c3792b7dedfe476e
   Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
   OHHTTPStubs: 8cf0cfe6f34f13fc88fdf5b2a1b2c2536e8c0261
-  PEObjc-Commons: c40bea2ce7f44ed636a74b7c78cd7a2753120d4e
+  PEObjc-Commons: b886fe99a6f414fa420809681d9b5513cab614b0
   PEWire-Control: 2aeefa4014575adbc52cfbf3206395d9a7c07b22
   PEXML-Utils: f7e0759b8e4e2ec3a39c781b362d7fb233fc8421
 

@@ -91,7 +91,7 @@
 		180FAF931A7C0F80009D94D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		180FAF951A7C0F88009D94D2 /* application-screens */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "application-screens"; sourceTree = "<group>"; };
 		180FAF971A7C1435009D94D2 /* libPods-DemoApp-IQKeyboardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-DemoApp-IQKeyboardManager.a"; path = "Pods/build/Debug-iphoneos/libPods-DemoApp-IQKeyboardManager.a"; sourceTree = "<group>"; };
-		189CAB0D1A7C1CF100A2A40B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		189CAB0D1A7C1CF100A2A40B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		328DD66BDD4F2CB495301E0C /* Pods-PESimu-SelectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PESimu-SelectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PESimu-SelectTests/Pods-PESimu-SelectTests.release.xcconfig"; sourceTree = "<group>"; };
 		33EEA441A6B13CB24DD1735B /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE892AAFF9C5CC5DA693EB8 /* libPods-PESimu-SelectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PESimu-SelectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,7 +145,6 @@
 		180FAF191A7C0381009D94D2 = {
 			isa = PBXGroup;
 			children = (
-				189CAB0D1A7C1CF100A2A40B /* Default-568h@2x.png */,
 				180FAF241A7C0381009D94D2 /* PESimu-Select */,
 				180FAF311A7C0381009D94D2 /* PESimu-SelectTests */,
 				180FAF411A7C063C009D94D2 /* DemoApp */,
@@ -210,6 +209,7 @@
 		180FAF421A7C063C009D94D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				189CAB0D1A7C1CF100A2A40B /* Default-568h@2x.png */,
 				CA7EF8131B446880003B9699 /* image-files-for-mock-responses */,
 				180FAF951A7C0F88009D94D2 /* application-screens */,
 				180FAF431A7C063C009D94D2 /* Info.plist */,

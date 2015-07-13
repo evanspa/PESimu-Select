@@ -4,7 +4,7 @@ platform :ios, '8.3'
 
 link_with 'PESimu-Select'
 
-pod 'PEObjc-Commons', '~> 1.0.8'
+pod 'PEObjc-Commons', '~> 1.0.20'
 pod 'PEWire-Control', '~> 1.0.2'
 pod 'KissXML', '~> 5.0', :inhibit_warnings => true
 

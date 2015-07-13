@@ -74,7 +74,6 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
                                          font:[UIFont systemFontOfSize:30]
                               backgroundColor:[UIColor clearColor]
                                     textColor:[UIColor blackColor]
-                        horizontalTextPadding:15
                           verticalTextPadding:15];
   UIButton *viewBeachBtn = [PEUIUtils buttonWithKey:@"View Beach"
                                                font:[UIFont systemFontOfSize:[UIFont systemFontSize]]

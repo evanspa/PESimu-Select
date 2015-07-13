@@ -57,7 +57,6 @@
                        font:[SSELSimulationTableCell fontForCellDescription]
             backgroundColor:[UIColor clearColor]
                   textColor:[UIColor blackColor]
-      horizontalTextPadding:0
         verticalTextPadding:7];
     [PEUIUtils placeView:_descriptionLbl
                    below:_titleLbl
@@ -71,7 +70,6 @@
                        font:[SSELSimulationTableCell fontForLatencyLabels]
             backgroundColor:[UIColor clearColor]
                   textColor:[UIColor blackColor]
-      horizontalTextPadding:0
         verticalTextPadding:0];
     [PEUIUtils placeView:reqLatencyLbl
                    below:_descriptionLbl
@@ -82,7 +80,7 @@
     [PEUIUtils placeView:_requestLatencyTf
             toTheRightOf:reqLatencyLbl
                     onto:contentView
-           withAlignment:PEUIVerticalAlignmentTypeCenter
+           withAlignment:PEUIVerticalAlignmentTypeMiddle
                 hpadding:3.0];
     
     UILabel *respLatencyLbl =
@@ -90,17 +88,16 @@
                        font:[SSELSimulationTableCell fontForLatencyLabels]
             backgroundColor:[UIColor clearColor]
                   textColor:[UIColor blackColor]
-      horizontalTextPadding:0
         verticalTextPadding:0];
     [PEUIUtils placeView:respLatencyLbl
             toTheRightOf:_requestLatencyTf
                     onto:contentView
-           withAlignment:PEUIVerticalAlignmentTypeCenter
+           withAlignment:PEUIVerticalAlignmentTypeMiddle
                 hpadding:3.0];
     [PEUIUtils placeView:_responseLatencyTf
             toTheRightOf:respLatencyLbl
                     onto:contentView
-           withAlignment:PEUIVerticalAlignmentTypeCenter
+           withAlignment:PEUIVerticalAlignmentTypeMiddle
                 hpadding:3.0];
   }
   return self;
