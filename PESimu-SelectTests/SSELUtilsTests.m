@@ -36,7 +36,7 @@ describe(@"SSELUtils", ^{
               [SSELUtils usecasesForScreen:@"unauthenticated-landing-screen"
                     fromBaseResourceFolder:@"application-screens"];
             [usecases shouldNotBeNil];
-            [[theValue([usecases count]) should] equal:theValue(2)];
+            [[theValue([usecases count]) should] equal:theValue(1)];
             SSELUseCase *usecase = [usecases objectAtIndex:0];
             [usecase shouldNotBeNil];
             [[[usecase name] should] equal:@"create-account"];

@@ -26,8 +26,15 @@
 		180FAF961A7C0F88009D94D2 /* application-screens in Resources */ = {isa = PBXBuildFile; fileRef = 180FAF951A7C0F88009D94D2 /* application-screens */; };
 		189CAB0E1A7C1CF100A2A40B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189CAB0D1A7C1CF100A2A40B /* Default-568h@2x.png */; };
 		CA7EF8141B446880003B9699 /* image-files-for-mock-responses in Resources */ = {isa = PBXBuildFile; fileRef = CA7EF8131B446880003B9699 /* image-files-for-mock-responses */; };
-		D3D49623CF0BA0F4B32A2936 /* libPods-PESimu-SelectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE892AAFF9C5CC5DA693EB8 /* libPods-PESimu-SelectTests.a */; };
-		E3CA55428F12CD09C35D593D /* libPods-DemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EEA441A6B13CB24DD1735B /* libPods-DemoApp.a */; };
+		CAFAD67D1C05050C0064DEDF /* DemoApp.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CAFAD67B1C05050C0064DEDF /* DemoApp.debug.xcconfig */; };
+		CAFAD67E1C05050C0064DEDF /* DemoApp.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CAFAD67C1C05050C0064DEDF /* DemoApp.release.xcconfig */; };
+		CAFAD6861C0506460064DEDF /* libPEWire-Control.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFAD6851C0506460064DEDF /* libPEWire-Control.a */; };
+		CAFAD68D1C0506670064DEDF /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFAD6871C0506670064DEDF /* libAFNetworking.a */; };
+		CAFAD68E1C0506670064DEDF /* libBlocksKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFAD6881C0506670064DEDF /* libBlocksKit.a */; };
+		CAFAD68F1C0506670064DEDF /* libKissXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFAD6891C0506670064DEDF /* libKissXML.a */; };
+		CAFAD6901C0506670064DEDF /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFAD68A1C0506670064DEDF /* libOHHTTPStubs.a */; };
+		CAFAD6911C0506670064DEDF /* libPEObjc-Commons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFAD68B1C0506670064DEDF /* libPEObjc-Commons.a */; };
+		CAFAD6921C0506670064DEDF /* libPEXML-Utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFAD68C1C0506670064DEDF /* libPEXML-Utils.a */; };
 		FCF1F792C646F374B24D8822 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E749BA7C972B1A23E5017B9B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +105,16 @@
 		87D176F180382C44BB5ACC5F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A7488A005D9619DEF06AA0AB /* Pods-PESimu-SelectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PESimu-SelectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PESimu-SelectTests/Pods-PESimu-SelectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA7EF8131B446880003B9699 /* image-files-for-mock-responses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "image-files-for-mock-responses"; sourceTree = "<group>"; };
+		CAFAD67B1C05050C0064DEDF /* DemoApp.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DemoApp.debug.xcconfig; sourceTree = "<group>"; };
+		CAFAD67C1C05050C0064DEDF /* DemoApp.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DemoApp.release.xcconfig; sourceTree = "<group>"; };
+		CAFAD6831C0506010064DEDF /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		CAFAD6851C0506460064DEDF /* libPEWire-Control.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPEWire-Control.a"; path = "Pods/../build/Debug-iphoneos/libPEWire-Control.a"; sourceTree = "<group>"; };
+		CAFAD6871C0506670064DEDF /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
+		CAFAD6881C0506670064DEDF /* libBlocksKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBlocksKit.a; path = "Pods/../build/Debug-iphoneos/libBlocksKit.a"; sourceTree = "<group>"; };
+		CAFAD6891C0506670064DEDF /* libKissXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKissXML.a; path = "Pods/../build/Debug-iphoneos/libKissXML.a"; sourceTree = "<group>"; };
+		CAFAD68A1C0506670064DEDF /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "Pods/../build/Debug-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
+		CAFAD68B1C0506670064DEDF /* libPEObjc-Commons.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPEObjc-Commons.a"; path = "Pods/../build/Debug-iphoneos/libPEObjc-Commons.a"; sourceTree = "<group>"; };
+		CAFAD68C1C0506670064DEDF /* libPEXML-Utils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPEXML-Utils.a"; path = "Pods/../build/Debug-iphoneos/libPEXML-Utils.a"; sourceTree = "<group>"; };
 		E749BA7C972B1A23E5017B9B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				180FAF2E1A7C0381009D94D2 /* libPESimu-Select.a in Frameworks */,
-				D3D49623CF0BA0F4B32A2936 /* libPods-PESimu-SelectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +139,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFAD68D1C0506670064DEDF /* libAFNetworking.a in Frameworks */,
+				CAFAD68E1C0506670064DEDF /* libBlocksKit.a in Frameworks */,
+				CAFAD68F1C0506670064DEDF /* libKissXML.a in Frameworks */,
+				CAFAD6901C0506670064DEDF /* libOHHTTPStubs.a in Frameworks */,
+				CAFAD6911C0506670064DEDF /* libPEObjc-Commons.a in Frameworks */,
+				CAFAD6921C0506670064DEDF /* libPEXML-Utils.a in Frameworks */,
+				CAFAD6861C0506460064DEDF /* libPEWire-Control.a in Frameworks */,
 				180FAF681A7C0662009D94D2 /* libPESimu-Select.a in Frameworks */,
-				E3CA55428F12CD09C35D593D /* libPods-DemoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +231,8 @@
 		180FAF421A7C063C009D94D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAFAD67B1C05050C0064DEDF /* DemoApp.debug.xcconfig */,
+				CAFAD67C1C05050C0064DEDF /* DemoApp.release.xcconfig */,
 				189CAB0D1A7C1CF100A2A40B /* Default-568h@2x.png */,
 				CA7EF8131B446880003B9699 /* image-files-for-mock-responses */,
 				180FAF951A7C0F88009D94D2 /* application-screens */,
@@ -327,6 +351,14 @@
 		ECA2A8FB565CC849B12ACA31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CAFAD6871C0506670064DEDF /* libAFNetworking.a */,
+				CAFAD6881C0506670064DEDF /* libBlocksKit.a */,
+				CAFAD6891C0506670064DEDF /* libKissXML.a */,
+				CAFAD68A1C0506670064DEDF /* libOHHTTPStubs.a */,
+				CAFAD68B1C0506670064DEDF /* libPEObjc-Commons.a */,
+				CAFAD68C1C0506670064DEDF /* libPEXML-Utils.a */,
+				CAFAD6851C0506460064DEDF /* libPEWire-Control.a */,
+				CAFAD6831C0506010064DEDF /* libPods.a */,
 				180FAF971A7C1435009D94D2 /* libPods-DemoApp-IQKeyboardManager.a */,
 				E749BA7C972B1A23E5017B9B /* libPods.a */,
 				6CE892AAFF9C5CC5DA693EB8 /* libPods-PESimu-SelectTests.a */,
@@ -361,11 +393,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180FAF391A7C0381009D94D2 /* Build configuration list for PBXNativeTarget "PESimu-SelectTests" */;
 			buildPhases = (
-				26E8A50E71DDFA1F814A8A4A /* Check Pods Manifest.lock */,
 				180FAF291A7C0381009D94D2 /* Sources */,
 				180FAF2A1A7C0381009D94D2 /* Frameworks */,
 				180FAF2B1A7C0381009D94D2 /* Resources */,
-				E7A8E496B5F9E077E5F9DB06 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -381,11 +411,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180FAF641A7C063D009D94D2 /* Build configuration list for PBXNativeTarget "DemoApp" */;
 			buildPhases = (
-				A594B12E0064B4C0D5600B21 /* Check Pods Manifest.lock */,
 				180FAF3C1A7C063C009D94D2 /* Sources */,
 				180FAF3D1A7C063C009D94D2 /* Frameworks */,
 				180FAF3E1A7C063C009D94D2 /* Resources */,
-				6FAE7910CF25DBB3DB65A379 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -403,7 +431,7 @@
 		180FAF1A1A7C0381009D94D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Paul Evans";
 				TargetAttributes = {
 					180FAF211A7C0381009D94D2 = {
@@ -452,6 +480,8 @@
 			files = (
 				180FAF501A7C063D009D94D2 /* Images.xcassets in Resources */,
 				180FAF961A7C0F88009D94D2 /* application-screens in Resources */,
+				CAFAD67E1C05050C0064DEDF /* DemoApp.release.xcconfig in Resources */,
+				CAFAD67D1C05050C0064DEDF /* DemoApp.debug.xcconfig in Resources */,
 				189CAB0E1A7C1CF100A2A40B /* Default-568h@2x.png in Resources */,
 				CA7EF8141B446880003B9699 /* image-files-for-mock-responses in Resources */,
 			);
@@ -460,21 +490,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		26E8A50E71DDFA1F814A8A4A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		2AD9CF0A641524A8D6106F17 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -490,36 +505,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6FAE7910CF25DBB3DB65A379 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A594B12E0064B4C0D5600B21 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		B62CD20901D2BB835EC3993B /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -533,21 +518,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E7A8E496B5F9E077E5F9DB06 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PESimu-SelectTests/Pods-PESimu-SelectTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -621,6 +591,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -635,7 +606,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -669,7 +640,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -698,90 +669,82 @@
 		};
 		180FAF3A1A7C0381009D94D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7488A005D9619DEF06AA0AB /* Pods-PESimu-SelectTests.debug.xcconfig */;
+			baseConfigurationReference = 87D176F180382C44BB5ACC5F /* Pods.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "PESimu-SelectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-l\"Pods-PESimu-SelectTests-Kiwi\"",
-					"-framework",
-					"\"XCTest\"",
-					"-l\"xml2\"",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.paulevans.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		180FAF3B1A7C0381009D94D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 328DD66BDD4F2CB495301E0C /* Pods-PESimu-SelectTests.release.xcconfig */;
+			baseConfigurationReference = 017F9DD415A27F336E47C4BF /* Pods.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "PESimu-SelectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-l\"Pods-PESimu-SelectTests-Kiwi\"",
-					"-framework",
-					"\"XCTest\"",
-					"-l\"xml2\"",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.paulevans.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		180FAF601A7C063D009D94D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87D176F180382C44BB5ACC5F /* Pods.debug.xcconfig */;
+			baseConfigurationReference = CAFAD67B1C05050C0064DEDF /* DemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = (
-					"-l\"xml2\"",
-					"-ObjC",
-					"-l\"Pods-DemoApp-AFNetworking\"",
-					"-l\"Pods-DemoApp-IQKeyboardManager\"",
+					"$(inherited)",
+					"-lxml2",
 				);
 				OTHER_LIBTOOLFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.paulevans.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		180FAF611A7C063D009D94D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 017F9DD415A27F336E47C4BF /* Pods.release.xcconfig */;
+			baseConfigurationReference = CAFAD67C1C05050C0064DEDF /* DemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = (
-					"-l\"xml2\"",
-					"-ObjC",
-					"-l\"Pods-DemoApp-AFNetworking\"",
-					"-l\"Pods-DemoApp-IQKeyboardManager\"",
+					"$(inherited)",
+					"-lxml2",
 				);
 				OTHER_LIBTOOLFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.paulevans.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -1,18 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '8.3'
+platform :ios, '8.0'
 
-link_with 'PESimu-Select'
-
-pod 'PEObjc-Commons', '~> 1.0.20'
-pod 'PEWire-Control', '~> 1.0.2'
+pod 'PEObjc-Commons', '~> 1.0.86', :inhibit_warnings => true
+pod 'PEWire-Control', '~> 1.0.5', :inhibit_warnings => true
 pod 'KissXML', '~> 5.0', :inhibit_warnings => true
+pod 'Kiwi', '~> 2.3.1', :inhibit_warnings => true
 
-target :'DemoApp',:exclusive => true do
-  pod 'IQKeyboardManager', '~> 3.2.1.1'
-  pod 'AFNetworking', '~> 2.5.4'
-end
-
-target :'PESimu-SelectTests',:exclusive => true do
-  pod 'Kiwi', '~> 2.3.1'
-end
+# needed by demo app
+pod 'AFNetworking', '~> 2.5.4', :inhibit_warnings => true
